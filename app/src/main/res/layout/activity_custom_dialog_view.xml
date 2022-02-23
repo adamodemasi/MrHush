@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="msc.unical.it.mrhush.Activities.HomeActivity">
+
+    <TextView
+        android:id="@+id/habit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="24sp"
+        android:layout_marginTop="12sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageB_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:src="@drawable/places_ic_clear"
+        android:background="@color/colorAccent"
+        android:elevation="3dp" />
+
+    <LinearLayout
+        android:id="@+id/ll99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_marginTop="30sp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/bluetooth_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/bluetooth"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/bt_icon" />
+
+            <ImageView
+                android:id="@+id/date_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="30sp"
+                android:contentDescription="@string/date"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/time_icon" />
+
+            <ImageView
+                android:id="@+id/wifi_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/wifi"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/wifi_icon" />
+
+            <ImageView
+                android:id="@+id/location_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/location"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/map_icon" />
+
+            <ImageView
+                android:id="@+id/time_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/time"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/time_icon" />
+
+            <ImageView
+                android:id="@+id/mute_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/bluetooth"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/mute_icon" />
+
+            <ImageView
+                android:id="@+id/sound_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/date"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/volume_icon" />
+
+            <ImageView
+                android:id="@+id/vibrate_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="18sp"
+                android:contentDescription="@string/wifi"
+                android:visibility="gone"
+                app:srcCompat="@mipmap/vibrate_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/btDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="30sp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/dateDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="32sp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/wifiDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="32sp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/locDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="32sp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/timeDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="32sp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mute_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="44sp"
+                android:text="@string/action_mute_on"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/sound_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="44sp"
+                android:text="@string/action_sound_on"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/vibrate_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginTop="44sp"
+                android:text="@string/action_vibrate_on"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

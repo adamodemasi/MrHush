@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">Mr. Hush</string>
+    <string name="title_activity_login">Mr. Hush</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START APP</string>
+
+    <string name="slide_1_title">Mr. Hush</string>
+    <string name="slide_1_desc">Take full control of your phone</string>
+    <string name="slide_2_title">Save your habit</string>
+    <string name="slide_2_desc">Please, allow Mr. Hush to write to external storage and to have access to your current position.
+        It\'s necessary to make the app perfectly working!</string>
+    <string name="slide_3_title">Shhh...</string>
+    <string name="slide_3_desc">Please, allow Mr. Hush to manage Do Not Disturb mode of your phone.</string>
+    <string name="slide_4_title">Let\'s get started!</string>
+    <string name="slide_4_desc"></string>
+
+    <string name="todo">TODO</string>
+    <string name="habitName">Insert habit name</string>
+    <string name="filtersList">Add a filter:</string>
+    <string name="chooseAction">Choose an Action</string>
+    <string name="saveHabit">Save Habit</string>
+    <string name="choose_wifi">Choose a WiFi network:</string>
+    <string name="save_wifi">Save WiFi</string>
+    <string name="save_bluetooth">Save Bluetooth</string>
+    <string name="choose_bluetooth">Choose a Bluetooth device:</string>
+    <string name="active_habits">Active Habits:</string>
+    <string name="non_active_habits">Non-Active Habits:</string>
+    <string name="save">Save</string>
+    <string name="choose_start_and_end_hour">Choose start and end hour</string>
+    <string name="bluetooth">bluetooth</string>
+    <string name="date">date</string>
+    <string name="wifi">wifi</string>
+    <string name="location">location</string>
+    <string name="time">time</string>
+    <string name="selected_filters">Selected filters:</string>
+    <string name="title_activity_location">Location Filter</string>
+    <string name="location_name">Location name</string>
+    <string name="save_current_location">Save Current Location</string>
+    <string name="added_locations">Latest added Locations</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="show_my_habits">My Habits</string>
+    <string name="settings">Settings</string>
+    <string name="set_actual_profile_as_default">Set actual profile as default</string>
+    <string name="set">Set</string>
+    <string name="personal_profile">Save your customized profile</string>
+    <string name="customize_your_default_profile">Customize your default profile</string>
+    <string name="ring_volume">Ring Volume</string>
+    <string name="music_volume">Music Volume</string>
+    <string name="notification_volume">Notification Volume</string>
+    <string name="alarm_volume">Alarm Volume</string>
+    <string name="action_vibrate_on">Action: Vibrate ON</string>
+    <string name="action_sound_on">Action: Sound ON</string>
+    <string name="action_mute_on">Action: Mute ON</string>
+
+</resources>
